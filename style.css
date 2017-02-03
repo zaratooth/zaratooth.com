@@ -1,0 +1,202 @@
+body, html{
+    margin: 0px;
+    overflow: hidden;
+    font-family: "adelle", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#body-wrapper{
+    width: 100%;
+    height: calc(100% - 150px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 150px;
+}
+
+#header-wrapper{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    z-index: 10;
+}
+
+#header{
+    max-width: 800px;
+    min-width: 475px;
+    margin: auto;
+    height: 150px;
+    border-bottom: 2px solid #EF4956; /*RED*/
+}
+
+#name{
+    font-size: 70px;
+    color: #60AEDC; /*BLUE*/
+}
+
+#slogan{
+    font-size: 28px;    
+    vertical-align: bottom;
+}
+
+#contact{
+    max-width: 800px;
+    min-width: 475px;
+    height: 20px;
+    background-color: white;
+    font-size: 15px;
+    position: relative;
+    top: 22px;
+    text-align: right;
+}
+
+.title{
+    position: relative;
+    top: 15px;
+}
+
+#content-wrapper{
+    width: 100%;
+    margin-left: 20px;
+}
+
+#content{
+    max-width: 800px;
+    min-width: 475px;
+    margin: auto;
+}
+
+.content-block{
+    opacity: 1;
+    margin-top: 80px;
+}
+
+.section-title{
+    font-size: 40px;
+    color: #60AEDC; /*BLUE*/
+}
+
+p{
+    font-size: 18px;
+}
+
+.skills-col{
+    display: table-cell;
+    padding: 25px;
+}
+
+.sub-title{
+    color: #EF4956; /*RED*/
+}
+
+#ex-arrow{
+    padding: 25px;
+    height: 600px;
+    display: table-cell;
+}
+
+.job{
+    
+}
+
+.dur{
+    color: #EF4956; /*RED*/
+    font-size: 29px;
+}
+
+.role{
+    color: #60AEDC; /*BLUE*/
+    font-size: 20px;
+}
+
+#experience-table{
+    display: table-cell;
+    padding: 25px;
+}
+
+.arrow{
+    width: 80px;
+}
+
+.project-content{
+    display: none;
+    position: relative;
+}
+
+.circle{
+    width: 120px;
+    font-size: 0px;
+    margin: 20px;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 100px;
+            
+    -webkit-transition: 0.4s cubic-bezier(1, -1, 1, 2);    
+    -webkit-clip-path: polygon(0% 40%, 0% 100%, 100% 100%, 100% 40%);
+}
+
+.circle:hover {   
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+    background-image: url("images/projects_bg.png");
+}
+
+#circle-bg{
+    opacity: 0;
+    
+    position: relative;
+    display: inline-block;
+    z-index: -10;
+    padding: 20px;  
+}
+
+#project-nav{
+    width: 800px;
+    font-size: 0px;
+    position: relative;
+    display: block;
+    left: 0px;
+}
+
+.project-block{
+    padding: 25px;
+    width: 650px;
+    margin: auto;
+}
+
+.project-title{
+    color: #EF4956; /*RED*/
+    font-size: 29px;
+}
+
+.project-picture{
+    width: 275px;
+}
+
+.project-info p {
+    margin: 5px;
+}
+
+.project-subtitle{
+    color: #60AEDC; /*BLUE*/
+    font-size: 25px;
+}
+
+#projects td{
+    vertical-align: top;
+    padding: 10px;
+    width: 50%;
+}
+
+.duty{
+    padding-top: 10px;
+}
+
+hr{
+    width: 500px;
+}
+
+.anim hr{
+    width: 500px;
+}

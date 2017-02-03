@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	height:100%;
+	width:100%;
+	overflow-y:hidden;
+	overflow-x:auto;
+	background-color:#111; /*7F9369;*/
+	
+}
+
+body{
+	height:100%;
+	width:100%;
+	min-width:908px;
+	margin : 0px;
+	padding : 0px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#background
+{
+	width:1354px;
+	height:auto;
+	position: relative;
+	left:calc(-677px + 100%/2);
+	overflow:hidden;
+	/*border-left:4px solid #222;
+	border-right:4px solid #222;*/
+}
+
+#body-wrapper {
+	width:100%;
+	margin:auto;
+	background-color:#616D51;
+	}
+	
+#new-wrapper {
+	width:1354px;
+	margin:auto;
+	background-color:#616D51;
+}
+#body-content {
+	width:900px;
+	min-height:500px;
+	background-color:#616D51; /*7F9369;*/
+	margin:auto;
+	}
+
+#header-wrapper
+{
+	width:100%;
+	height:134px;
+	background-color:#333333;
+}
+
+#header-content
+{
+	width:1354px;
+	height:134px;
+	margin:auto;
+	background-color:#333333;
+}
+
+#nav-wrapper
+{
+	width:100%;
+	margin:auto;
+	background-color:#FFF;
+}
+
+#nav{
+	margin:auto;
+	width:1354px;
+	height:158px;
+	padding-bottom:5px;
+	padding-top:5px;
+	background-color:#FFF;
+}
+
+#info{
+	position:relative;
+	width:800px;
+}
+
+#caption {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	overflow:hidden;
+	background:url(../images/blackSquare.png);
+	padding:10px 25px 15px 25px;
+	position:relative;
+	width:470px;
+	margin:auto;
+	min-height:115px;
+	}
+	
+.infoBlock{
+	overflow:hidden;
+	background:url(../images/blackSquare.png);
+	padding:10px 25px 15px 25px;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#DDD;
+}
+.infoBlock h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#727DB2;
+}
+.infoBlock p, ol, li{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	line-height:30px;
+}
+
+#welcome-text{	
+	/*left:25px;
+	width:900px;*/
+}
+
+#description{
+	border-color:#FED41B;
+	border-width:medium;
+	width:850px;
+}
+
+#leedInfo{
+	width:850px;
+}
+
+#price{
+	width:250px;
+	/*left:25px;*/
+}
+
+#stats{
+	width:850px;
+}
+
+#stats table{
+	width:400px;
+	
+}
+
+#more{
+	/*width:400px;
+	left:25px;*/
+}
+
+a:link{
+	color:#BBB;
+}
+
+a > img {
+    border: 0;
+	outline: 0;
+}
+
+#gallery{
+	/*left:25px;*/
+	width:850px;
+}
+
+#galleryLarge{
+	width:520px;
+	height:345px;
+	margin:auto;
+	padding:20px;
+}
+
+#galleryThumb{
+	height:85px;
+	width:520px;
+	overflow:scroll;
+	overflow-y:hidden;
+	margin:auto;
+	margin-bottom:15px;
+	white-space:nowrap;
+}
+
+#floorplans img{
+	margin:auto;
+}
+#floorplans{
+	
+	margin:auto;
+}
+
+#floorplans-pics{
+	width:800px;
+	margin:auto;
+}
+
+a > img {
+    border: 0;
+	outline: 0;
+}
+
+#footer{
+	margin:auto;
+	width:900px;
+	height:108px;
+	background-color:#FFF;
+	}

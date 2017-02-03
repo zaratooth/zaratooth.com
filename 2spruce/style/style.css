@@ -1,0 +1,197 @@
+html{
+	height:100%;
+	width:100%;
+	overflow-x:auto;
+	background-color:#111; /*7F9369;*/
+	overflow-y:scroll;
+	
+}
+
+body{
+	height:100%;
+	width:100%;
+	min-width:908px;
+	margin : 0px;
+	padding : 0px;
+	overflow-x:hidden;
+	
+}
+
+#background
+{
+	width:1354px;
+	height:auto;
+	position: relative;
+	left:calc(-677px + 100%/2);
+	/*border-left:4px solid #222;
+	border-right:4px solid #222;*/
+}
+
+#header-wrapper
+{
+	width:100%;
+	height:134px;
+	background-color:#333333;
+}
+
+#header-content
+{
+	width:1354px;
+	height:134px;
+	margin:auto;
+	background-color:#333333;
+}
+
+#nav-wrapper
+{
+	width:100%;
+	margin:auto;
+	background-color:#FFF;
+}
+
+#nav{
+	margin:auto;
+	width:1354px;
+	height:158px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+#wrapper{
+width : 900px;
+padding: 0px;
+margin:  auto;
+text-align: left;
+background-color:#616D51;
+}
+
+#new-wrapper{
+	width:1354px;
+	margin:auto;
+	background-color:#616D51;
+	}
+	
+#body-wrapper {
+	width:100%;
+	margin:auto;
+	background-color:#616D51;
+		
+	}
+
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#727DB2;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+}
+
+#maincontent{
+margin:auto;
+width : 1050px;
+height: 2900px;
+padding:10px 25px 15px 25px;
+background:url(../images/blackSquare.png);
+}
+
+#maincontent p{
+width:970px;
+clear:both;
+margin-top:5px;
+margin-bottom:5px;
+padding:0px;
+
+}
+
+#maincontent xmp{
+width:970px;
+clear:both;
+white-space: pre;
+white-space: -moz-pre-wrap;
+word-wrap: break-word;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+span.code{
+border: 1px dotted #99CC00;
+background-color:#E6FF97;
+clear:both;
+width:970px;
+}
+
+span.tozoom{
+width:420px;
+margin:5px;
+}
+
+span.tozoom img{
+border: 1px solid #EEEEEE;
+}
+
+fieldset{
+clear:both;
+width:400px;
+padding:0px;
+margin-left:300px;
+border:1px solid #CCCCCC;
+
+}
+
+fieldset a{
+float:left;
+width:80px;
+}
+
+#floorplans img{
+	margin:auto;
+}
+#floorplans{
+	
+	margin:auto;
+}
+
+#floorplans-pics{
+	width:800px;
+	margin:auto;
+}
+
+
+.infoBlock{
+	overflow:hidden;
+	background:url(../images/blackSquare.png);
+	padding:10px 25px 15px 25px;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	color:DDD;
+}
+.infoBlock h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#727DB2;
+}
+.infoBlock p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	line-height:30px;
+}
+
+a > img {
+    border: 0;
+	outline: 0;
+}
+
+#more{
+	width:1050px;
+}
+
+#footer{
+	margin:auto;
+	width:900px;
+	height:108px;
+	background-color:#FFF;
+	}
